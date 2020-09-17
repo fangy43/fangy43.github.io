@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c9dc4e1.chunk.css",
+    "main.js": "/static/js/main.953c4b66.chunk.js",
+    "main.js.map": "/static/js/main.953c4b66.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d6f6ceba.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d6f6ceba.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.ca31ae35.chunk.js": "/static/js/2.ca31ae35.chunk.js",
+    "static/js/2.ca31ae35.chunk.js.map": "/static/js/2.ca31ae35.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.005cff8e604153f0bf0719d7c6e4ca0c.js": "/precache-manifest.005cff8e604153f0bf0719d7c6e4ca0c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.4c9dc4e1.chunk.css.map": "/static/css/main.4c9dc4e1.chunk.css.map",
+    "static/js/2.ca31ae35.chunk.js.LICENSE.txt": "/static/js/2.ca31ae35.chunk.js.LICENSE.txt",
+    "static/media/educa-card.jpg": "/static/media/educa-card.fdd4ba1e.jpg",
+    "static/media/profile-sq.jpg": "/static/media/profile-sq.2a50a8bd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6f6ceba.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.ca31ae35.chunk.js",
+    "static/css/main.4c9dc4e1.chunk.css",
+    "static/js/main.953c4b66.chunk.js"
+  ]
+}
