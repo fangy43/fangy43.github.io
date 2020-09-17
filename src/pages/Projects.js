@@ -9,19 +9,19 @@ export const Projects = () => {
             <h1>Projects</h1>
             <div className="projects-list">
                 <CardDeck>
-                    <Card bg="dark" style={{ height: '350px' }} >
-                        <Card.Img style={{ height: '200px' }}  src= {educaCard}/>
+                    <Card  bg = "dark" style={{ height: '350px', borderRadius: '20px' }} >
+                        <Card.Img style={{ height: '200px', borderRadius: '20px' }} src={educaCard} />
                         <Card.Body>
                             <Card.Title style={{ color: "white" }}><h4>Educa</h4></Card.Title>
                             <Card.Text style={{ fontSize: '15px' }}>
-                                Web application for Education <br></br> - Software Development Process Project with my team at KMITL. 
+                                Web application for Education <br></br> - Software Development Process Project with my team at KMITL.
                             </Card.Text>
-                            <Card.Link href="https://github.com/Educa-software" style={{ color: "white" } }>See Github</Card.Link>
+                            <Card.Link href="https://github.com/Educa-software" style={{ color: "white" }}>See Github</Card.Link>
                         </Card.Body>
                     </Card>
-                    
-                    <Card bg="dark" style={{ height: '350px' }}>
-                        <Card.Img style={{ height: '200px' }} variant="top" src="" />
+
+                    <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
+                        <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
                         <Card.Body>
                             <Card.Title style={{ fontSize: '30px' }, { color: "white" }}   >Card Title</Card.Title>
                             <Card.Text style={{ fontSize: '15px' }}>
@@ -31,11 +31,11 @@ export const Projects = () => {
                         </Card.Body>
                     </Card>
 
-                
+
                 </CardDeck>
                 <CardDeck>
-                    <Card bg="dark" style={{ width: '340px' }, { height: '350px' }}>
-                        <Card.Img style={{ height: '200px' }} variant="top" src="" />
+                    <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
+                        <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
                         <Card.Body>
                             <Card.Title style={{ fontSize: '30px' }, { color: "white" }}   >Card Title</Card.Title>
                             <Card.Text style={{ fontSize: '15px' }}>
@@ -45,8 +45,8 @@ export const Projects = () => {
                         </Card.Body>
                     </Card>
 
-                    <Card bg="dark" style={{ width: '340px' }, { height: '350px' }}>
-                        <Card.Img style={{ height: '200px' }} variant="top" src="" />
+                    <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
+                        <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
                         <Card.Body>
                             <Card.Title style={{ fontSize: '30px' }, { color: "white" }}   >Card Title</Card.Title>
                             <Card.Text style={{ fontSize: '15px' }}>
@@ -56,8 +56,8 @@ export const Projects = () => {
                         </Card.Body>
                     </Card>
 
-                    <Card bg="dark" style={{ width: '380px' }, { height: '350px' }}>
-                        <Card.Img style={{ height: '200px' }} variant="top" src="" />
+                    <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
+                        <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
                         <Card.Body>
                             <Card.Title style={{ fontSize: '30px' }, { color: "white" }}   >Card Title</Card.Title>
                             <Card.Text style={{ fontSize: '15px' }}>
