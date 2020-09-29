@@ -23,7 +23,7 @@ export const Projects = () => {
                     <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
                         <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
                         <Card.Body>
-                            <Card.Title style={{ fontSize: '30px' }, { color: "white" }}   >Card Title</Card.Title>
+                            <Card.Title style={{ color: "white" }}   >Card Title</Card.Title>
                             <Card.Text style={{ fontSize: '15px' }}>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -37,7 +37,7 @@ export const Projects = () => {
                     <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
                         <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
                         <Card.Body>
-                            <Card.Title style={{ fontSize: '30px' }, { color: "white" }}   >Card Title</Card.Title>
+                            <Card.Title style={{ color: "white" }}   >Card Title</Card.Title>
                             <Card.Text style={{ fontSize: '15px' }}>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -48,7 +48,7 @@ export const Projects = () => {
                     <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
                         <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
                         <Card.Body>
-                            <Card.Title style={{ fontSize: '30px' }, { color: "white" }}   >Card Title</Card.Title>
+                            <Card.Title style={{ color: "white" }}   >Card Title</Card.Title>
                             <Card.Text style={{ fontSize: '15px' }}>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -59,7 +59,7 @@ export const Projects = () => {
                     <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
                         <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
                         <Card.Body>
-                            <Card.Title style={{ fontSize: '30px' }, { color: "white" }}   >Card Title</Card.Title>
+                            <Card.Title style={ { color: "white" }}   >Card Title</Card.Title>
                             <Card.Text style={{ fontSize: '15px' }}>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
