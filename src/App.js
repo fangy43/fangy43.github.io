@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter basename = '/fangy43.github.io'>
         <Navigation />
         <Switch>
-          <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Home} />
           <Route path="/projects" component={Projects} />
           <Route path="/profile" component={Profile} />
           <Route path="/contact" component={Contact} />

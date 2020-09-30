@@ -8,12 +8,12 @@ export const Projects = () => {
         <div className="project">
             <h1>Projects</h1>
             <div className="projects-list">
-                <CardDeck>
+                <CardDeck style ={{margin:'20px'}}>
                     <Card  bg = "dark" style={{ height: '350px', borderRadius: '20px' }} >
                         <Card.Img style={{ height: '200px', borderRadius: '20px' }} src={educaCard} />
                         <Card.Body>
                             <Card.Title style={{ color: "white" }}><h4>Educa</h4></Card.Title>
-                            <Card.Text style={{ fontSize: '15px' }}>
+                            <Card.Text style={{ fontSize: '15px' , textAlign:'left'}}>
                                 Web application for Education <br></br> - Software Development Process Project with my team at KMITL.
                             </Card.Text>
                             <Card.Link href="https://github.com/Educa-software" style={{ color: "white" }}>See Github</Card.Link>
@@ -33,7 +33,7 @@ export const Projects = () => {
 
 
                 </CardDeck>
-                <CardDeck>
+                <CardDeck style ={{margin:'20px'}}>
                     <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
                         <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
                         <Card.Body>
