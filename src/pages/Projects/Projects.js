@@ -2,13 +2,35 @@ import React from 'react'
 import { Card, CardDeck } from 'react-bootstrap'
 import './Projects.css'
 import educaCard from '../../img/educa-card.jpg'
+import { ProjectCard } from '../../components/ProjectCard/ProjectCard'
 
 export const Projects = () => {
     return (
         <div className="project">
             <h1>Projects</h1>
             <div className="projects-list">
-                <CardDeck style ={{margin:'20px'}}>
+            <CardDeck style ={{margin:'20px'}}>
+                <ProjectCard 
+                    ImgURL='https://github.com/fangy43/fangy43.github.io/blob/dev/src/img/educa-card.jpg?raw=true'
+                    Topic="Educa"
+                    Text=" Web application for Education  - Software Development Process Project with my team at KMITL."
+                    Ref="https://github.com/Educa-software"
+                />
+                <ProjectCard 
+                    
+                />
+                
+            </CardDeck>
+            <CardDeck style ={{margin:'20px'}}>
+                <ProjectCard 
+                    
+                />
+                <ProjectCard 
+                    
+                />
+                
+            </CardDeck>
+                {/* <CardDeck style ={{margin:'20px'}}>
                     <Card  bg = "dark" style={{ height: '350px', borderRadius: '20px' }} >
                         <Card.Img style={{ height: '200px', borderRadius: '20px' }} src={educaCard} />
                         <Card.Body>
@@ -32,43 +54,8 @@ export const Projects = () => {
                     </Card>
 
 
-                </CardDeck>
-                <CardDeck style ={{margin:'20px'}}>
-                    <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
-                        <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
-                        <Card.Body>
-                            <Card.Title style={{ color: "white" }}   >Card Title</Card.Title>
-                            <Card.Text style={{ fontSize: '15px' }}>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                        </Card.Text>
-                        </Card.Body>
-                    </Card>
-
-                    <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
-                        <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
-                        <Card.Body>
-                            <Card.Title style={{ color: "white" }}   >Card Title</Card.Title>
-                            <Card.Text style={{ fontSize: '15px' }}>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                        </Card.Text>
-                        </Card.Body>
-                    </Card>
-
-                    <Card bg="dark" style={{ height: '350px', borderRadius: '20px' }}>
-                        <Card.Img style={{ height: '200px', borderRadius: '20px' }} variant="top" src="" />
-                        <Card.Body>
-                            <Card.Title style={ { color: "white" }}   >Card Title</Card.Title>
-                            <Card.Text style={{ fontSize: '15px' }}>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                        </Card.Text>
-                        </Card.Body>
-                    </Card>
-
-                </CardDeck>
-
+                </CardDeck> */}
+               
 
             </div>
         </div>
