@@ -1,6 +1,6 @@
 import React from 'react'
 import './Profile.css'
-import icon from '../img/profile-sq.jpg'
+import icon from '../../img/profile-sq.jpg'
 
 
 

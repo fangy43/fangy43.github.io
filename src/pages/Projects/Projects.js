@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardDeck } from 'react-bootstrap'
 import './Projects.css'
-import educaCard from '../img/educa-card.jpg'
+import educaCard from '../../img/educa-card.jpg'
 
 export const Projects = () => {
     return (

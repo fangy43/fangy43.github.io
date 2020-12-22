@@ -3,10 +3,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navigation } from './components/Navigation';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import { Home } from './pages/Home'
-import { Projects } from './pages/Projects'
-import { Profile } from './pages/Profile'
-import { Contact } from './pages/Contact'
+import { Home } from './pages/Home/Home'
+import { Projects } from './pages/Projects/Projects'
+import { Profile } from './pages/Profile/Profile'
+import { Contact } from './pages/Contact/Contact'
 
 //import { Button } from 'react-bootstrap';
 
