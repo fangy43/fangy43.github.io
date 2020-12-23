@@ -7,14 +7,16 @@ export const ProjectCard = (props) => {
 
     return (
         // <div>{props.ImgURL}</div>
-        <Card bg="dark" style={{ height: '360px', width: '400px', borderRadius: '20px' }} >
-            <Card.Img style={{ height: '200px', borderRadius: '20px' }} src={props.ImgURL} />
+        <Card bg="dark" style={{ height: '400px', width: '450px', borderRadius: '20px' ,}} >
+            <Card.Link href={props.Ref}>
+                <Card.Img style={{ height: '200px', borderRadius: '25px' ,}} src={props.ImgURL} />
+            </Card.Link>
             <Card.Body>
                 <Card.Title style={{ color: "white" }}><h4>{props.Topic}</h4></Card.Title>
-                <Card.Text style={{ fontSize: '18px', textAlign: 'left' }}>
+                <Card.Text style={{ fontSize: '20px', textAlign: 'left' }}>
                     {props.Text}
                 </Card.Text>
-                <Card.Link href={props.Ref} style={{ color: "white" }}>See Github</Card.Link>
+                <Card.Link href={props.GithubRef} style={{ color: "white" }}>See Github</Card.Link>
             </Card.Body>
         </Card>
 
