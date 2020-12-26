@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import icon from '../../img/profile-sq.jpg'
+import icon from '../../img/welcome.svg'
 
 export const Home = () => {
     return (
@@ -8,9 +8,8 @@ export const Home = () => {
             <div className="home-context" >
                 <img src={icon} alt="" className="icon"/>
                 <div className="home-text">
-                    <h1 className="header-home" >Welcome</h1>
-                    <p className="text-home"> This is my personal website. for learning about
-                    React Js Html and Css. Let's see !!
+                    <br/>
+                    <p className="text-home"> Hi! My name is Fang. This is my personal website. Let's see !!
                     </p>
                     
                 </div>

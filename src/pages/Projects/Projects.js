@@ -28,18 +28,11 @@ export const Projects = () => {
                             ImgURL={items.ImgURL}
                             Topic={items.Topic}
                             Des={items.Des}
-                           GithubRef={items.GithubRef}
-                          Ref={items.Ref}
+                            GithubRef={items.GithubRef}
+                            Ref={items.Ref}
                          />
                     )
                 })}
-                
-
-
-
-
-
-
             </div>
         </div>
     )

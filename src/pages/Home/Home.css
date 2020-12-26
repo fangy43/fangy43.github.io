@@ -14,27 +14,14 @@
     font-family: 'Baloo Tammudu 2', cursive;
 }
 
-
 .icon{
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 50%;
-    width: 280px;
-    height: 280px;
-    border-color: #FFFFFF;
-    margin: 20px;
-    box-shadow:2px 2px 5px darkblue;
-      
-}
-.header-home{
-    font-size: 70px;
-    color:  white;
-    text-shadow: 2px 2px 5px darkblue;
-    
+    width: 80vw;
+    max-width: 900px;
 }
 .text-home{
-    font-size: 25px;
+    font-size: 40px;
     color: white;
-    text-align: left;
+    text-align: center;
     text-shadow: 2px 2px 5px darkblue;
+    margin: auto;
 }
