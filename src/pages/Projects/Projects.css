@@ -6,13 +6,16 @@
 }
 .projects-list{
     max-width: 1280px;
-    
-    padding: 0 30px;
+    padding: 30px 30px;
     min-height: 100vh;
     margin: auto;
-
     padding-bottom: 110px;
-    min-height: auto;
+
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
     
     
 }

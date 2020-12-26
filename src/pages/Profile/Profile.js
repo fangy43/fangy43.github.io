@@ -28,8 +28,6 @@ export const Profile = () => {
                     </div>
                 </div>
                 <div className="profile-bot">
-                    <br />
-                    ใส่ไรดี??
                 </div>
             </div>
 
