@@ -11,7 +11,7 @@ export const Projects = () => {
             ImgURL:'https://github.com/fangy43/fangy43.github.io/blob/dev/src/img/educa-card.jpg?raw=true',
             Topic:"Educa",
             Des:" Web application for Education  - Software Development Process Project with my team at KMITL.",
-            GithubRef:"https://github.com/Educa-software",
+            GithubRef:"https://github.com/educa-kmitl",
             Ref:"https://educa.now.sh",
         }
         
